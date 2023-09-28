@@ -113,7 +113,6 @@
     },
     "additionalProperties": true,
     "required": [
-        "schema_version",
         "team_name",
         "team_abbr",
         "model_name",
