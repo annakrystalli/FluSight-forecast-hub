@@ -1,6 +1,6 @@
 reference_date,horizon,target,target_end_date,location,output_type,output_type_id,value
 2023-10-07,-1,wk flu hosp rate change,2023-09-30,01,pmf,large_increase,1.1102230246251565e-16
-2023-10-07,0,wk flu hosp rate change,2023-10-07,01,pmf,large_increase,4.579780998881233e-12
+2023-10-07,0,wk flu hosp rate change,2023-10-07,01,pmf,large_increase,4.567780998881233e-12
 2023-10-07,1,wk flu hosp rate change,2023-10-14,01,pmf,large_increase,4.428346578322362e-12
 2023-10-07,2,wk flu hosp rate change,2023-10-21,01,pmf,large_increase,9.098277686803158e-13
 2023-10-07,3,wk flu hosp rate change,2023-10-28,01,pmf,large_increase,7.890841313695773e-10
