@@ -23,7 +23,7 @@ jobs:
           install-r: false
           use-public-rspm: true
 
-      - name: Update R
+      - name: Update R - Test cache share
         run: |
           sudo apt-get update
 
