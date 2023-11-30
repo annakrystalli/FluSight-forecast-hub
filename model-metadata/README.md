@@ -10,6 +10,8 @@ These instructions provide detail about the [data
 format](#Data-format) as well as [validation](#Data-validation) that
 you can do prior to a pull request with a metadata file.
 
+
+
 # Data format
 
 ## Required variables
