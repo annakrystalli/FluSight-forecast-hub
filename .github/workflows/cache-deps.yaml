@@ -1,16 +1,15 @@
 name: Build dependency cache on main branch
 on:
   push:
-    branch: main
+    branches: main
     paths:
-      - '.github/workflows/validate-submission.yaml'
-      - '.github/workflows/cache-main.yaml'
+      - '.github/workflows/cache-deps.yaml'
   schedule:
     - cron: "10 0 * * *"
 
 jobs:
   build-deps-cache-on-main:
-    if: github.repository_owner == 'cdcepi'
+    if: github.repository_owner == 'annakrystalli'
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
